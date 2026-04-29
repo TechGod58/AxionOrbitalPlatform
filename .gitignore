@@ -1,0 +1,40 @@
+﻿# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+~$*
+
+# Runtime/generated material
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+build/
+coverage/
+
+# Local secrets and private data
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+*.cer
+*secret*
+*password*
+*credential*
+*token*
+*patient*
+*phi*
+
+# Local databases/backups/archives
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+*.zip
+*.7z
+*.rar
